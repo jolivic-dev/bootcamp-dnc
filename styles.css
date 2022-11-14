@@ -12,32 +12,16 @@
         top: 0px;
         background: #303030;
     }
-    .noUnderLine {
-        text-decoration: none;
-    }
 
-    a {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 25px;
-        line-height: 30px;
-        color: white;
-    }
-
-    .buttonLogin {
-        margin-right: 5%;
-    }
-
-    #loginText {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 24px;        
-        color: #FFFFFF;
-        background: #0C70F2;
-        box-shadow: 3px 2px 4px;
+    /*texto para colocar o fundo azul com degradê*/
+    .background2 {
+        position: absolute;
+        width: 1440px;
+        height: 2206px;
+        left: 0px;
+        top: 103px;
+        background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%), #303030;
+        border: 1px solid #BABABA;
     }
 
     #main {
@@ -47,6 +31,7 @@
         background-color: #303030;
         display: flex;
         justify-content: space-between;
+        border-bottom: 1px solid #BABABA;
     }
 
     #menu {
@@ -54,6 +39,47 @@
         width: 50%;
         justify-content: space-around;
         align-items: center;
+        margin-left: 3%;
+    }
+    
+    
+    a {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        color: white;
+    }
+
+    a:hover {
+        color: rgba(156, 156, 165, 0.568);
+    }
+        
+    .noUnderLine {
+        text-decoration: none;
+    }
+
+    .buttonLogin {
+        margin-top: 2%;
+        margin-right: 5%;
+        border: 0px;
+        width: 80px;
+        height: 40px;
+        left: 1245px;
+        top: 31px;
+        background: #0C70F2;
+        box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25);
+        cursor: pointer;
+    }
+
+    #loginText {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;        
+        color: #FFFFFF;
     }
 
 </style>
