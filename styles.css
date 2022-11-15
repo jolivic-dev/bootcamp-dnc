@@ -35,7 +35,7 @@
     }
     
     a{
-        font-family: Inter;
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
         font-size: 24px;
@@ -65,7 +65,7 @@
     }
     
     #loginText{
-        font-family: Inter;
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
         font-size: 20px;
@@ -95,7 +95,7 @@
         top: 0px;
         margin-top: 1020px;
         text-transform: uppercase;
-        font-family: Inter;
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 800;
         font-size: 80px;
@@ -112,7 +112,7 @@
 
         margin-top: -145px;
 
-        font-family: Inter;
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 500;
         font-size: 40px;
@@ -122,7 +122,7 @@
     }
 
     #formGroupTitle{
-        font-family: Inter;
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
         font-size: 30px;
@@ -137,7 +137,7 @@
         width: 650px;
 
         color: white;
-        font-family: Inter;
+        font-family: 'Inter';
          
         margin-top: 200px;
         margin-bottom: 1500px;
@@ -162,7 +162,7 @@
     .formGroupTitle{
         margin-top: 2px;
 
-        font-family: Inter;
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
         font-size: 30px;
@@ -194,7 +194,7 @@
         height: 30px;
         left: 437px;
         top: 100px;
-        font-family: Inter;
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 30px;
@@ -211,7 +211,7 @@
     }
 
     input[type="text"]{
-        font-family: Inter;
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 630px;
         font-size: 20px;
@@ -275,7 +275,7 @@
         color: white;
         font-weight: 800;
         font-size: 25px;
-        font-family: Inter;
+        font-family: 'Inter';
 
         background-color: black;
         border-radius: 10px;
@@ -290,7 +290,7 @@
         color: white;
         font-weight: 600;
         font-size: 25px;
-        font-family: Inter;
+        font-family: 'Inter';
 
         margin: 20px 0px 20px 0px;
     }
@@ -307,7 +307,7 @@
     footer .address{
         font-weight: 600;
         font-size: 20px;
-        font-family: Inter;
+        font-family: 'Inter';
         color: white;
         text-align: center;
 
@@ -323,7 +323,7 @@
     }
 
     footer .line2 a{
-        font-family: Inter;
+        font-family: 'Inter';
         font-size: 30px;
         font-weight: 600;
         color: white;
@@ -338,5 +338,49 @@
     footer .line2 a:hover{
         color: gray;
     }
+
+@media only screen and (max-width: 600px) {
+
+    #main{
+        flex-direction: column;
+        height: auto;
+    }
+
+    #menu{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+
+    #menu a{
+        display: flex;
+        align-items: center;
+        height: 50px;
+    }
+
+    #main button{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    #section h1{
+        font-size: 38px;
+    }
+
+    #section h2{
+        font-size: 20px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    #form{
+        width: 95%;
+        font-size: 20px;
+    }
+
+    .checkBoxItens label{
+        font-size: 15px;
+    }
+}
 
 </style>
