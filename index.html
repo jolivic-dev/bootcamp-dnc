@@ -22,7 +22,7 @@
         <section id="sub1">
             <header>
                 <h1 id="subTitle">
-                    <p >BOOTCAMP DNC</p>
+                    <p >Bootcamp DNC</p>
                 </h1>
                 <h2 id="subText">
                     Esse será um evento exclusivo para todos os alunos<br>
@@ -32,42 +32,51 @@
                 </h2>
 
             </header>
-            <br><br><br><br><br><br><br>
-            <form action="">
+            <form>
                 <div class="formGroup">
-                    <label for="">Nome:</label><br>
-                    <input type="text" placeholder="Insira seu nome aqui...">
+                    <label class="formGroupTitle">Nome:</label>
+                    <c>
+                        <input type="text" placeholder="Insira seu nome aqui...">
+                    </c>
                 </div>
                 <div class="formGroup">
-                    <label for="">Sobreome:</label><br>
-                    <input type="text" placeholder="Insira seu sobrenome aqui...">
+                    <label class="formGroupTitle">Sobreome:</label>
+                        <c>
+                            <input type="text" placeholder="Insira seu sobrenome aqui..."><br><br>
+                        </c>
                 </div>
-                <div class="formGroup">
-                    <label for="">Área de interesse:</label><br>
-                    <div class="checkBoxItens">
-                        <input type="checkbox" value="front">
-                        <label>Front-End</label>
+                <div class="formGroupCheck">
+                    <label class="formGroupTitle">Área de interesse:</label>
+                    <div class="formGroupCheck">
+                        <div class="checkBoxItens">
+                            <input type="checkbox" value="front" class="checkboxBox">
+                            <label class="checkBoxNome">Front-End</label>
+
+                            <input type="checkbox" value="back" class="checkboxBox">
+                            <label class="checkBoxNome">Back-End</label>
+
+                            <input type="checkbox" value="bd" class="checkboxBox">
+                            <label class="checkBoxNome">Banco de Dados</label>
+                        </div>
                     </div>
-                    <div class="checkBoxItens">
-                        <input type="checkbox" value="back">
-                        <label>Back-End</label>
-                    </div>
-                    <div class="checkBoxItens">
-                        <input type="checkbox" value="bd">
-                        <label>Banco de Dados</label>
-                    </div>
                 </div>
                 <div class="formGroup">
-                    <label for="">E-mail:</label><br>
-                    <input type="text" placeholder="Insira seu e-mail aqui...">
+                    <label class="formGroupTitle">E-mail:</label>
+                        <c>
+                            <input type="text" placeholder="Insira seu e-mail aqui...">
+                        </c>
                 </div>
                 <div class="formGroup">
-                    <label for="">Telefone:</label><br>
-                    <input type="text" placeholder="(99) 9999-9999">
+                    <label class="formGroupTitle">Telefone:</label>
+                        <c>
+                            <input type="text" placeholder="(99) 9999-9999">
+                        </c>
                 </div>
                 <div class="formGroup">
-                    <label for="">Insira uma frase criativa aqui:</label><br>
-                    <input type="text" placeholder="Qual frase criativa você gostaria de falar? :)">
+                    <label class="formGroupTitle">Insira uma frase criativa aqui:</label>
+                        <c>
+                            <input type="text" placeholder="Qual frase criativa você gostaria de falar? :)">
+                        </c>
                 </div>
                 <input type="submit" value="Cadastrar">
             </form>

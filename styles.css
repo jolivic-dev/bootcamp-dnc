@@ -34,7 +34,6 @@
         margin-left: 3%;
     }
     
-    
     a{
         font-family: 'Inter';
         font-style: normal;
@@ -45,7 +44,7 @@
     }
 
     a:hover{
-        color: rgba(156, 156, 165, 0.568);
+        color: rgba(87, 87, 87, 0.226);
     }
         
     .noUnderLine{
@@ -64,7 +63,7 @@
         box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25);
         cursor: pointer;
     }
-
+    
     #loginText{
         font-family: 'Inter';
         font-style: normal;
@@ -74,15 +73,11 @@
         color: #FFFFFF;
     }
 
-    #sub1 title{
-        width: 671px;
-        height: 97px;
-        left: 384px;
-        top: 202px;
-        align-items: center;
-    }
+    /* CABEÇALHO */
 
     #subTitle{
+        margin-top: -1050px;
+        text-transform: uppercase;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 800;
@@ -90,6 +85,19 @@
         line-height: 97px;
         text-align: center;
         color: #FFFFFF;
+    }
+    
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section .invert{
+        background-color: black;
+        font-weight: bold;
+        padding: 2px;
     }
 
     #subText{
@@ -101,5 +109,89 @@
         text-align: center;
         color: #FFFFFF;
     }
+
+    #formGroupTitle{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        color: #FFFFFF;
+    }
     
+    /* FORMULÁRIO */
+
+    form{
+        color: white;
+        font-family: 'Inter';
+        margin-top: -500px;
+        margin-bottom: 0px;
+    }
+
+    .formGroup{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        }
+
+    .formGroupTitle{
+        margin-top: 2px;
+        margin-bottom: 8px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+    .checkboxBox{
+        margin-top: 8px;
+        margin-bottom: 29px;
+        width: 20px;
+        height: 22px;
+        left: 403px;
+        top: 999px; 
+        background: #FFFFFF;
+        border: 5px solid #CCCCCC; 
+    }
+
+    .checkBoxNome{
+        width: 122px;
+        height: 30px;
+        left: 437px;
+        top: 995px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+
+        color: #FFFFFF;
+
+    }
+
+    c{
+        width: 630px;
+        height: 56px;
+        top: 860px;
+
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+    }
+
+    ::placeholder{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 630px;
+        font-size: 20px;
+
+        color: rgba(57, 57, 57, 0.5);
+
+    }
+
 </style>
